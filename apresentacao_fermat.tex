@@ -1,0 +1,168 @@
+\documentclass[10pt,]{beamer}
+\usepackage{beamerthemeblackboard}
+\usepackage{graphics}
+\usepackage{emerald}
+\usepackage[T1]{fontenc}
+
+\title{Uso de tecnologias em sala de aula: ferramentas, processos e motivações}
+\author{Melissa Weber Mendonça} 
+\institute{\small{Universidade Federal de Santa Catarina}}
+\date{{1\textordfeminine\ Feira de Matemática da UFSC \textemdash\ 2019}}
+
+
+\begin{document}
+
+%set the font to Augie (emerald font).
+%Comment out this line to only use Augie
+%for titles, etc
+%\ECFAugie
+
+%title frame
+\begin{frame}[plain]
+\maketitle  
+\end{frame}
+
+% \begin{frame}{Resumo}
+% Apesar da utilização constante dos telefones celulares, internet e redes sociais, nas escolas ainda é incipiente a utilização de tecnologias como ferramentas de ensino-aprendizagem, mesmo nas disciplinas como a matemática, intimamente ligada com o desenvolvimento da ciência da computação, linguagens de programação e resolução computacional de problemas em diversas áreas da ciência e das engenharias.
+
+% Neste trabalho, discutimos algumas ideias para o papel da tecnologia em sala de aula, levantando questões sobre que ferramentas usar, em que contextos e qual é a importância que os currículos de educação superior em licenciatura e bacharelado dão para o desenvolvimento desses temas.
+% \end{frame}
+
+\begin{frame}
+  \begin{center}
+    Qual é o objetivo que temos ao ensinar matemática aos nossos alunos?
+    \vfill
+    \only<2->{Nossa maneira de ensinar atinge esse objetivo? Em que mundo nossos estudantes vivem/viverão?}
+  \end{center}
+\end{frame}
+
+\begin{frame}{}
+  \begin{center}
+    Você usa a tecnologia em sala de aula? Como?
+  \end{center}
+\end{frame}
+
+\begin{frame}{}
+  \begin{center}
+    Qual o tempo que podemos ``gastar'' para aprender uma ferramenta nova de trabalho?
+  \end{center}
+\end{frame}
+
+\begin{frame}{Seymour Papert}
+  \framesubtitle{(MIT Media Lab)}
+  \begin{columns}
+    \column{6cm}
+    ``(...) as crianças não são contêineres onde deve ser depositado o conhecimento, mas construtoras ativas de conhecimento, pequenos cientistas que estão sempre testando suas teorias sobre o mundo''
+    \vfill
+    \textemdash\ \href{https://super.abril.com.br/tecnologia/a-maior-vantagem-competitiva-e-a-habilidade-de-aprender/}{Fonte: Entrevista (Super Interessante)}
+    \column{5cm}
+    \includegraphics[width=4cm]{Seymour_Papert.png}
+  \end{columns}
+\end{frame}
+
+\begin{frame}{Mitchel Resnick}
+  \framesubtitle{(MIT Media Lab)}
+  \begin{columns}
+    \column{5cm}
+    \includegraphics[width=5cm]{Mitchel_Resnick.jpg}
+    \column{6cm}
+    ``(...) em nosso trabalho de pesquisa no MIT, pensamos que a tecnologia deve levar o aluno a ser um pensador criativo, se desenvolvendo por meio de trabalhos coletivos que envolvam a experimentação de novas formas de se relacionar com o mundo.''
+    \vfill
+    \textemdash\ \href{https://novaescola.org.br/conteudo/905/mitchel-resnick-a-tecnologia-deve-levar-o-aluno-a-ser-um-pensador-criativo}{Fonte: Entrevista (Nova Escola)}
+  \end{columns}
+\end{frame}
+
+\begin{frame}{Como?}
+  ``É necessário que o professor de matemática organize um trabalho estruturado através de atividades que propiciem o desenvolvimento de \textbf{exploração informal e investigação reflexiva} e que não privem os alunos nas suas iniciativas e controle da situação. O professor deve projetar desafios que estimulem o questionamento, a colocação de problemas e a busca de solução. Os alunos não se tornam ativos aprendizes por acaso, mas por desafios projetados e estruturados, que visem a exploração e investigação.''
+  \vfill
+  Richards, em \cite{richards}
+\end{frame}
+
+% \begin{frame}{Como?}
+%   Graficar uma função em um software não necessariamente tem o papel de verificar ou corrigir um gráfico feito inicialmente no papel. Porém, pode servir como pretexto para uma discussão de interpretações e para o questionamento de decisões tomadas ao longo da resolução de uma questão sem o uso do computador. O objetivo deve ser ``usar o computador para promover aprendizagem matemática sólida o suficiente para permanecer e se transferir para outras situações \textemdash\ \emph{mesmo sem o apoio da máquina}.'' \cite[p.65]{profmat2013}
+% \end{frame}
+
+% \begin{frame}{Como?}
+%   ``(...) temos como meta uma incorporação efetiva à prática docente \textemdash\ sem que o computador se reduza a um mero adereço, alegórico para a abordagem, e que a aula no laboratório de informática adquira um caráter de curiosidade, desconectada da aula ``de verdade'', aquela com quadro negro e giz. (...) a questão a considerar não deve ser como recursos computacionais podem ser anexados a abordagens previamente estabelecidas, e sim como sua \emph{integração à prática docente pode viabilizar a produção de novas abordagens, possibilitando reestruturação da ordem e das conexões entre os conteúdos, e criando novas formas de explorar e de aprender Matemática}.'' \cite[p.VII-VIII]{profmat2013}
+% \end{frame}
+
+% \begin{frame}{Como?}
+%   ``É fundamental que os alunos construam um senso crítico para o resultado do computador, sustentado pela consciência de que a máquina não é isenta de limitações, e de que seus resultados devem ser entendidos à luz de argumentos matemáticos (e não ao contrário).'' \cite[p.X]{profmat2013}
+% \end{frame}
+
+\begin{frame}{Desafios}
+  \begin{itemize}
+  \item Barreiras de ordem prática: carência de recursos materiais; resistências políticas por parte das direções escolares; falta de tempo. ``Entretanto, (...) \emph{justamente para se munir de contra-argumentos para tais obstáculos, é importante conhecer essas possibilidades.}'' \cite[p.VII]{profmat2013}
+  \item Novas formas de avaliação
+  \item Insegurança dos professores em relação às ferramentas; medo de cometer erros
+  \item ``A informática por si só não garante esta mudança, e muitas vezes se pode ser enganado pelo visual atrativo dos recursos tecnológicos que são oferecidos, mas os quais simplesmente reforçam as mesmas características do modelo de escola que privilegia a transmissão do conhecimento.'' \cite{gravina}
+  \end{itemize}
+\end{frame}
+
+\begin{frame}{Possibilidades}
+  \begin{itemize}
+  \item Construtivismo aplicado! (Piaget+Papert)
+  \item Apresentação de assuntos de maneira dinâmica, permitindo aos alunos \emph{manipular} os objetos matemáticos
+  \item Acesso a informações e organização de conteúdos em hipertexto
+  \item Aprendizagem assíncrona: Ampliação da sala de aula e possibilidade de revisão para o aluno no caso de materiais disponíveis online (video-aulas, textos)
+  \item Devemos separar a aprendizagem da linguagem e a apresentação de assuntos em sala de aula; o professor deve saber programar, o aluno não precisa.
+  \item Devemos explorar as limitações da máquina como oportunidade de aprendizagem
+  \end{itemize}
+\end{frame}
+  
+% \item Os graficadores podem ser ferramentas para a articulações múltiplas entre diferentes formas de representação de funções, por exemplo, entre a Tabela, a Fórmula e o Gráfico\cite[p.59]{profmat2013}.
+
+% \item Escalas logarítmicas, coordenadas polares
+
+% \item O gráfico de uma função é o ``lugar geométrico dos pontos do plano cartesiano cujas coordenadas verificam a lei de formação da função. Em geral, os alunos aprendem tantos procedimentos para traçar gráficos em casos particulares, que essa noção fundamental fica em segundo plano.''\cite[p.171]{profmat2013}.
+
+\begin{frame}{Ideias de Atividades}
+  \begin{itemize}
+    \item A inclusão digital é uma realidade?
+    \item Devemos priorizar atividades coletivas
+    \item Atividades devem apontar para reflexões sobre os conceitos matemáticos, independente das tecnologias empregadas
+    \item Os recursos computacionais mais simples, como as calculadoras, permitem ao professor a utilização de dados numéricos realistas (e não só inteiros ou ``bonitos'') 
+  \end{itemize}
+\end{frame}
+
+\begin{frame}{Ideias de Atividades: Ensino Fundamental}
+  \begin{itemize}
+  \item Manipulação de operações aritméticas com calculadora
+  \item Utilização de câmera e aplicativos auxiliares para medir e manipular objetos reais em geometria (calcular distâncias, alturas, projeções, proporções)
+  \item Utilização de relógio, fuso horário, temporizador para a manipulação e conversão de unidades de tempo
+  \item Jogos educativos e lógicos
+  \end{itemize}
+\end{frame}
+
+\begin{frame}{Ideias de Atividades: Ensino Médio}
+  \begin{itemize}
+  \item Interpretações de dados do cotidiano: aproximações, interpolações, estatísticas, operações, gráficos etc
+  \item Testar eixos, escalas e visualizações diferentes pode ser interessante para explorar o cuidado que se deve ter ao observar e tentar interpretar e generalizar dados incompletos advindos de gráficos
+  \item Linguagens de programação, planilhas eletrônicas: formalismo da simbologia algébrica (sintaxe e semântica)
+  \item Funções em ambientes de geometria dinâmica podem ser exploradas como famílias a partir de parâmetros
+  \item Otimização
+  \end{itemize}
+\end{frame}
+
+\begin{frame}{Alguns recursos}
+  \begin{itemize}
+  \item Calculadora!
+  \item Mathpix/Photomath
+  \item Geogebra
+  \item Maxima
+  \item Linguagens de programação geral: Python
+  \item Lego
+  \end{itemize}
+\end{frame}
+
+\section{Referências}
+\begin{frame}{Referências}
+  \bibliographystyle{plain}
+  \bibliography{refs_fermat}
+  % PIAGET, Jean. Aprendizagem e Conhecimento, em Piaget, P. & Gréco, P.,
+  % Aprendizagem e Conhecimento, Freitas Bastos, Rio de Janeiro, 1974.
+  % Léa da Cruz Fagundes in Nova Escola On-line , edição número 172, maio de 2004,
+  % “Podemos vencer a exclusão digital”.
+\end{frame}
+
+\end{document}
